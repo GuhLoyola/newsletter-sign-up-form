@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/favicon-32x32.png" type="image/x-icon">
+    <title>Newsletter sign up fom</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+</head>
+
+<body>
+    <section class="card">
+        <div class="conteudo">
+            <h1 class="titulo">Stay updated!</h1>
+            <p class="descricao">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul>
+                <li>
+                    <img src="./src/img/icon-list.svg" alt="icon list">
+                    <p>Product discovery and build what matters</p>
+                </li>
+                <li>
+                    <img src="./src/img/icon-list.svg" alt="icon list">
+                    <p>Measuring to ensure updates are a success</p>
+                </li>
+                <li>
+                    <img src="./src/img/icon-list.svg" alt="icon list">
+                    <p>And much more!</p>
+                </li>
+            </ul>
+            <form class="formulario">
+                <label for="email">
+                    <p>Email Address</p>
+                    <p class="invalid-input">Valid email required</p>
+                </label>
+                <input type="email" id="email" placeholder="email@company.com" class="campo">
+                <button type="submit" id="btn" class="btn">Subscribe to monthly newsletter</button>
+            </form>
+        </div>
+        <div class="img-conteudo">
+            <picture>
+                <source srcset="./src/img/illustration-sign-up-mobile.svg" media="(max-width: 768px)">
+                <img src="./src/img/illustration-sign-up-desktop.svg">
+            </picture>
+        </div>
+    </section>
+    <section class="card-2 hide">
+        <div class="content-ty">
+            <div class="img-ty">
+                <img src="./src/img/icon-success.svg" alt="icon success">
+            </div>
+            <h2>Thanks for subscribing!</h2>
+            <p>A confirmation email has been sent to <span class="saved-email">ash@loremcompany.com</span>. Please open
+                it
+                and click the button inside to confirm your subscription.</p>
+        </div>
+        <form>
+            <button type='submit' id="btn-dismiss" class="btn">Dismiss message</button>
+        </form>
+    </section>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@media(max-width:768px) {
+    body {
+        display: block;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+        padding: 0;
+        border-radius: 0
+    }
+
+    .conteudo {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .conteudo .titulo {
+        font-size: 30px;
+    }
+
+    .conteudo ul li {
+        align-items: start;
+    }
+
+    .img-conteudo img{
+        width: 100%;
+    }
+
+    .card-2 {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+        justify-content: space-between;
+        padding: 20px;
+        padding-top: 70px;
+    }
+}
